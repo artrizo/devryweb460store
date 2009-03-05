@@ -1,0 +1,29 @@
+﻿
+/*-----------browser clears-----------*/
+* {
+    margin: 0px;
+    padding: 0px;}
+    
+/*---------general-------------*/
+
+body {
+
+}
+
+/*----------header and footer------------*/
+#header {
+    background-color:#e8e8e8;
+}
+
+/*---------left column-------------*/
+
+
+/*---------nav menu-------------*/
+#navMenu {
+    
+}
+
+/*----------main content------------*/
+#mainContent {
+    background-color:#ccc;
+}
