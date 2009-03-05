@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Src="~/Controls/NavMenu.ascx" TagName="ctrlNavMenu" TagPrefix="rr"%> 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -28,23 +29,8 @@
         </div>
         
         <div id="navMenu">
-            <div id="tabs">
-	            <ul>
-		            <li><a href="#tabs-1">nav1</a></li>
-		            <li><a href="#tabs-2">nav2</a></li>
-		            <li><a href="#tabs-3">nav3</a></li>
-	            </ul>
-	            
-	            <div id="tabs-1">
-		            <p>link to somewhere</p>
-	            </div>
-	            <div id="tabs-2">
-		            <p>link to somewhere else</p>
-	            </div>
-	            <div id="tabs-3">
-		            <p>link to yet somewhere else</p>
-	            </div>
-            </div>
+            <!--code is in the user control in the controls folder-->
+            <rr:ctrlNavMenu ID="ctrlNavMenu1" runat="server" />
 
         <asp:ContentPlaceHolder id="navMenuPH" runat="server">
             <!--nav holder--> 
