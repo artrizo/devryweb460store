@@ -5,10 +5,10 @@
 $(document).ready(function() {
 
     //nav menu tabs
-    $("#tabs").tabs();
+    $("#tabs").tabs({ event: 'mouseover' });
 
 
-    // code here examples
+    // code examples
     $(".popup").click(function(event) {
         alert("Thanks for visiting My Pet Store");
     });

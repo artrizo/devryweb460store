@@ -7,7 +7,15 @@
 /*---------general-------------*/
 
 body {
+    font-family: Tahoma, Arial, Times New Roman, Sans-Serif;
+    font-size: 11px;
+    background-color:#fff;   
+}
 
+#container {
+    margin: 0px auto;
+    width: 1000px;
+    
 }
 
 /*----------header and footer------------*/
@@ -21,6 +29,42 @@ body {
 /*---------nav menu-------------*/
 #navMenu {
     
+}
+
+#tabs-1{
+    
+}
+#tabs-1 li {
+    display:inline;
+    margin-right:20px;
+}
+#tabs-1 li a {
+    text-decoration:none;
+}
+#tabs-1 li a:hover {
+    color:#59b4d4;
+}
+
+#tabs-2 li {
+    display:inline;
+    margin-right:20px;
+}
+#tabs-2 li a {
+    text-decoration:none;
+}
+#tabs-2 li a:hover {
+    color:#59b4d4;
+}
+
+#tabs-3 li {
+    display:inline;
+    margin-right:20px;
+}
+#tabs-3 li a {
+    text-decoration:none;
+}
+#tabs-3 li a:hover {
+    color:#59b4d4;
 }
 
 /*----------main content------------*/
