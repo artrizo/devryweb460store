@@ -21,7 +21,7 @@
     <asp:Button ID="btnUpdateTwitterAccount" runat="server" Text="Post To Twitter" OnClick="UpdateTwitterAccount_Click" />
     <br />
     
-    <asp:CustomValidator ID="cvUpdateTwitterAccount" runat="server" OnServerValidate="valUpdateTwitterAccount" ErrorMessage="Twitter comment may not exceed 150 characters."></asp:CustomValidator>
+    <asp:CustomValidator ID="cvUpdateTwitterAccount" runat="server" OnServerValidate="valUpdateTwitterAccount" ErrorMessage="Twitter comment may not exceed 140 characters."></asp:CustomValidator>
     
 </asp:Content>
 <asp:Content ID="Content7" ContentPlaceHolderID="footerPH" Runat="Server">
