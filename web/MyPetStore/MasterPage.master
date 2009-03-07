@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
-<%@ Register Src="~/Controls/NavMenu.ascx" TagName="ctrlNavMenu" TagPrefix="rr"%> 
+<%@ Register Src="~/Controls/NavMenu.ascx" TagName="ctrlNavMenu" TagPrefix="rr"%>
+<%@ Register Src="~/Controls/Footer.ascx" TagName="ctrlFooter" TagPrefix="js"%>
+<%@ Register Src="~/Controls/Header.ascx" TagName="ctrlHeader" TagPrefix="js"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -23,9 +25,10 @@
     
         <div id="header">
             <a href="#" class="popup">CLICK ME</a>
-                <asp:ContentPlaceHolder id="headerPH" runat="server">
-                    <!--header holder-->
-                </asp:ContentPlaceHolder>
+            <js:ctrlHeader id="CtrlHeader1" runat="server" />
+            <asp:ContentPlaceHolder id="headerPH" runat="server">
+                <!--header holder-->
+            </asp:ContentPlaceHolder>
         </div>
         
         <div id="navMenu">
@@ -52,10 +55,12 @@
             </asp:ContentPlaceHolder>
         </div>
         
-        <asp:ContentPlaceHolder id="footerPH" runat="server">
-            <!--nav holder--> 
-        </asp:ContentPlaceHolder>
-        
+        <div id="footer">
+            <js:ctrlFooter id="ctrlFooter1" runat="server" />
+            <asp:ContentPlaceHolder id="footerPH" runat="server">
+                <!--nav holder-->
+            </asp:ContentPlaceHolder>
+        </div>
     </div>
     </form>
 </body>
