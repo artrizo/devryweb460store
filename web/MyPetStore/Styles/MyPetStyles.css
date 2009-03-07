@@ -20,8 +20,25 @@ body {
 }
 
 /*----------header and footer------------*/
+.popup {
+    float:right;
+}
+
 #header {
+    background: #e8e8e8 no-repeat;
+    height:120px;
+}
+#headerLogo .headerText {
+    padding-left:40px;
+}
+
+#footer {
     background-color:#e8e8e8;
+    text-align:center;
+    padding:25px;
+}
+#footerText {
+    font-style: italic;
 }
 
 /*---------left column-------------*/

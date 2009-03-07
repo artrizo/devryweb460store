@@ -1,9 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Pages_Default" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagName="Footer" TagPrefix="js"%>
+<%@ Register Src="~/Controls/Header.ascx" TagName="Header" TagPrefix="js"%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headPH" Runat="Server">
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="headerPH" Runat="Server">
+    <js:Header id="Header" runat="server" />
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="navMenuPH" Runat="Server">
@@ -22,5 +25,6 @@
 </asp:Content>
 
 <asp:Content ID="Content7" ContentPlaceHolderID="footerPH" Runat="Server">
+    <js:Footer id="Footer" runat="server" />
 </asp:Content>
 
