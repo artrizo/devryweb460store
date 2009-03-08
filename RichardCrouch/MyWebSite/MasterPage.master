@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="default.css" type="text/css" rel="Stylesheet" />
+    <title>User Membership Demo</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    
+    <div class="topnav">
+            <a href="Default.aspx">Home</a>
+            <a href="Default.aspx">About</a>
+            <a href="Default.aspx">Menu</a>
+            <a href="Default.aspx">Contact</a>
+        </div>
+    <div class="container">
+        
+        <div class="content">
+            <form id="form1" runat="server">
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </form> 
+        </div>
+    </div>
+</body>
+</html>

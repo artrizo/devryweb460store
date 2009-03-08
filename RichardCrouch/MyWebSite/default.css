@@ -1,0 +1,27 @@
+﻿body 
+{
+}
+.container 
+{
+	margin: 0 auto;
+	width: 780px;
+}
+.topnav 
+{
+	/*background: #FFF;*/
+	margin: 0 auto;
+	width: 780px;
+	text-align: center;
+}
+.topnav a 
+{
+	font-family: Sans-Serif;
+	padding: 1em;
+}
+.topnav topNavHome:hover
+{
+	background: #456
+}
+.content 
+{
+}
