@@ -23,19 +23,33 @@ body {
 .popup {
     float:right;
 }
-
+.myCart {
+    float:right;
+    padding:20px 25px 0px 0px;
+    font-size:10pt;
+}
 #header {
     background: #e8e8e8 no-repeat;
     height:120px;
+    padding-left:10px;
+}
+#header a{
+    text-decoration:none;
+}
+#headerLogo {
+    padding-left:10px;
 }
 #headerLogo .headerText {
-    padding-left:40px;
+    padding-left:75px;
 }
 
 #footer {
     background-color:#e8e8e8;
     text-align:center;
     padding:25px;
+}
+#footer a{
+    text-decoration:none;
 }
 #footerText {
     font-style: italic;

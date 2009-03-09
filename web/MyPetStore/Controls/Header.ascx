@@ -2,5 +2,5 @@
 
 <div id="headerLogo">
     <img src="../Images/headerLogo01.png" alt=""/>
+    <img class="headerText" src="../Images/headerText.png" alt=""/>
 </div>
-

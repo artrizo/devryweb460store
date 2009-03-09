@@ -24,7 +24,17 @@
     <div id="container">
     
         <div id="header">
-            <a href="#" class="popup">CLICK ME</a>
+            <!--<a href="#" class="popup">CLICK ME</a>-->
+            <div class="myCart">
+                <a href="#">My Account</a> | 
+                <a href="#">Cart Contents</a> | 
+                <a href="#">Checkout</a>
+                <br /><br /><br /><br />
+                <form method="get" action="http://www.google.com/search">
+                    <input type="text"   name="q" size="20" maxlength="255" value="" />
+                    <input type="submit" value="Google Search" />
+                </form>
+            </div>
             <js:ctrlHeader id="CtrlHeader1" runat="server" />
             <asp:ContentPlaceHolder id="headerPH" runat="server">
                 <!--header holder-->
